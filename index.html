@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food WebApp</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #59309b;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:rgb(190, 166, 55);">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h2>Top 5 favourite foods</h2>
+        <ul>
+          <li><a href="#biryani">Biryani</a></li>
+          <li><a href="#cake">Cake</a></li>
+          <li><a href="#pizza">Pizza</a></li>
+          <li><a href="#choupsey">Choupsey</a></li>
+          <li><a href="#wings">Wings</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="biryani"><img src="Biryani.jpg" class="fooditem"></div>
+        <p class="labels">Biryani</p>
+        <div id="cake"><img src="Cake.jpeg" class="fooditem"/></div>
+        <p class="labels">Cake</p>
+        <div id="pizza"><img src="Pizza.webp" class="fooditem"/></div>
+        <p class="labels">Pizza</p>
+        <div id="choupsey"><img src="choupsay.jpg" class="fooditem"/></div>
+        <p class="labels">Choupsey</p>
+        <div id="wings"><img src="Wings.jpg" class="fooditem"/></div>
+        <p class="labels">Wings</p>
+      </div>
+    </div>
+  </body>
+</html>
